@@ -28,13 +28,44 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.textBox_result = new System.Windows.Forms.TextBox();
+            this.textBox_input = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // textBox_result
+            // 
+            this.textBox_result.Location = new System.Drawing.Point(182, 92);
+            this.textBox_result.Multiline = true;
+            this.textBox_result.Name = "textBox_result";
+            this.textBox_result.Size = new System.Drawing.Size(456, 208);
+            this.textBox_result.TabIndex = 0;
+            // 
+            // textBox_input
+            // 
+            this.textBox_input.Location = new System.Drawing.Point(116, 31);
+            this.textBox_input.Multiline = true;
+            this.textBox_input.Name = "textBox_input";
+            this.textBox_input.Size = new System.Drawing.Size(301, 35);
+            this.textBox_input.TabIndex = 1;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox_input);
+            this.Controls.Add(this.textBox_result);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox textBox_result;
+        private System.Windows.Forms.TextBox textBox_input;
     }
 }
 
