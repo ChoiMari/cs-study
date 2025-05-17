@@ -96,4 +96,4 @@ namespace WindowsFormsApp_05_Function
             return result;
         }
     }
-}
+} 
