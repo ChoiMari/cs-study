@@ -40,10 +40,10 @@
 - Delegate
 - 람다식
 - Event
-  
 
+<br>
 
-### 🖥 GUI 개발  
+## 🖥 GUI 개발  
 
 🔸 .NET 기반 WinForm  
 🔸 WPF를 사용한 데이터 시각화 어플리케이션
