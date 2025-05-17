@@ -1,5 +1,7 @@
-﻿
-
+﻿/*************************************
+ * 작성일 : 2025-05-15
+ * 컬렉션 - 비제네릭컬렉션, 제네릭컬렉션
+**************************************/
 using System;
 using System.Collections;
 using System.Collections.Generic;
