@@ -1,4 +1,8 @@
-﻿using System;
+/**********************************
+작성일 : 2025-05-13
+오버로드, 오버라이드
+***********************************/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
