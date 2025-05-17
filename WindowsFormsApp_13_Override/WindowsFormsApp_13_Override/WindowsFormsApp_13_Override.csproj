@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{05347609-ED4B-4AAE-AEC3-C1DD914C358E}</ProjectGuid>
+    <ProjectGuid>{050A25A8-63B8-4FB0-8332-AEC0C90DF757}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsFormsApp_12_UpCasting</RootNamespace>
-    <AssemblyName>WindowsFormsApp_12_UpCasting</AssemblyName>
+    <RootNamespace>WindowsFormsApp_13_Override</RootNamespace>
+    <AssemblyName>WindowsFormsApp_13_Override</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,7 +54,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Weapon.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
