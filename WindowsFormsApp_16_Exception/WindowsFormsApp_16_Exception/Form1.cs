@@ -1,4 +1,8 @@
-﻿using System;
+﻿/************************
+ * 작성일 : 2025-05-14
+ * 예외 처리
+ ************************/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -84,7 +88,7 @@ namespace WindowsFormsApp_16_Exception
                 Console.ReadLine();
             }
 
-        }
+        } 
         /*
          * [참고 1]
          * ex 객체 찍어볼 수 있다.
