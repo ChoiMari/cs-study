@@ -40,7 +40,7 @@
 - Delegate
 - 람다식
 - Event
-- 스레드(Thread)
+- Thread
 
 <br>
 
